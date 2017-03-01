@@ -12,9 +12,7 @@
 		1F158B091E5FC01B003E486A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F158B071E5FC01B003E486A /* Main.storyboard */; };
 		1F158B0B1E5FC01B003E486A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F158B0A1E5FC01B003E486A /* Assets.xcassets */; };
 		1F158B0E1E5FC01B003E486A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F158B0C1E5FC01B003E486A /* LaunchScreen.storyboard */; };
-		1F5968701E5FEA4700F35618 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F59686F1E5FEA4700F35618 /* LocationModel.swift */; };
 		1F5968721E5FF9D200F35618 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F5968711E5FF9D200F35618 /* sample.json */; };
-		1F5968741E60005C00F35618 /* DJMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5968731E60005C00F35618 /* DJMarker.swift */; };
 		1F98D9011E60A69700F35DF4 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98D9001E60A69700F35DF4 /* Instagram.swift */; };
 		1F98D9031E60F96C00F35DF4 /* HelperExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98D9021E60F96C00F35DF4 /* HelperExtension.swift */; };
 		C6958C33ECE79E52438E4B09 /* Pods_zapgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4F32CAF50A508421A29FEF /* Pods_zapgo.framework */; };
@@ -29,9 +27,7 @@
 		1F158B0D1E5FC01B003E486A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F158B0F1E5FC01B003E486A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F4F32CAF50A508421A29FEF /* Pods_zapgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zapgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F59686F1E5FEA4700F35618 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		1F5968711E5FF9D200F35618 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
-		1F5968731E60005C00F35618 /* DJMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJMarker.swift; sourceTree = "<group>"; };
 		1F98D9001E60A69700F35DF4 /* Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
 		1F98D9021E60F96C00F35DF4 /* HelperExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExtension.swift; sourceTree = "<group>"; };
 		4034A43B1C00755494AD179A /* Pods-zapgo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zapgo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zapgo/Pods-zapgo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +77,6 @@
 				1F158B071E5FC01B003E486A /* Main.storyboard */,
 				1F158B0A1E5FC01B003E486A /* Assets.xcassets */,
 				1F158B0F1E5FC01B003E486A /* Info.plist */,
-				1F5968731E60005C00F35618 /* DJMarker.swift */,
 			);
 			path = zapgo;
 			sourceTree = "<group>";
@@ -96,7 +91,6 @@
 		1F158B161E5FE451003E486A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1F59686F1E5FEA4700F35618 /* LocationModel.swift */,
 				1F98D9001E60A69700F35DF4 /* Instagram.swift */,
 				1F98D9021E60F96C00F35DF4 /* HelperExtension.swift */,
 			);
@@ -270,9 +264,7 @@
 			files = (
 				1F98D9011E60A69700F35DF4 /* Instagram.swift in Sources */,
 				1F158B061E5FC01B003E486A /* ViewController.swift in Sources */,
-				1F5968741E60005C00F35618 /* DJMarker.swift in Sources */,
 				1F98D9031E60F96C00F35DF4 /* HelperExtension.swift in Sources */,
-				1F5968701E5FEA4700F35618 /* LocationModel.swift in Sources */,
 				1F158B041E5FC01B003E486A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -4,17 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AFNetworking.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Alamofire.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>InstagramKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,12 +22,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5C69EA6AC041CD16890CB2F1107DEC57</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7B84FBD402F899829C7FF3519E7B4FC7</key>
+		<key>2CB15DBC5D353DD98D9283CD20E14D86</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +32,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FCD67038946272B861864D74C32201C6</key>
+		<key>D64087240F90CF980FBC67044E17CB67</key>
 		<dict>
 			<key>primary</key>
 			<true/>
