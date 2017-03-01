@@ -12,6 +12,12 @@
 		1F158B091E5FC01B003E486A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F158B071E5FC01B003E486A /* Main.storyboard */; };
 		1F158B0B1E5FC01B003E486A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F158B0A1E5FC01B003E486A /* Assets.xcassets */; };
 		1F158B0E1E5FC01B003E486A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F158B0C1E5FC01B003E486A /* LaunchScreen.storyboard */; };
+		1F5968701E5FEA4700F35618 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F59686F1E5FEA4700F35618 /* LocationModel.swift */; };
+		1F5968721E5FF9D200F35618 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F5968711E5FF9D200F35618 /* sample.json */; };
+		1F5968741E60005C00F35618 /* DJMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5968731E60005C00F35618 /* DJMarker.swift */; };
+		1F98D9011E60A69700F35DF4 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98D9001E60A69700F35DF4 /* Instagram.swift */; };
+		1F98D9031E60F96C00F35DF4 /* HelperExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98D9021E60F96C00F35DF4 /* HelperExtension.swift */; };
+		C6958C33ECE79E52438E4B09 /* Pods_zapgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4F32CAF50A508421A29FEF /* Pods_zapgo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,14 @@
 		1F158B0A1E5FC01B003E486A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F158B0D1E5FC01B003E486A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F158B0F1E5FC01B003E486A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4F32CAF50A508421A29FEF /* Pods_zapgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zapgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F59686F1E5FEA4700F35618 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		1F5968711E5FF9D200F35618 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		1F5968731E60005C00F35618 /* DJMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJMarker.swift; sourceTree = "<group>"; };
+		1F98D9001E60A69700F35DF4 /* Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
+		1F98D9021E60F96C00F35DF4 /* HelperExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExtension.swift; sourceTree = "<group>"; };
+		4034A43B1C00755494AD179A /* Pods-zapgo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zapgo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zapgo/Pods-zapgo.debug.xcconfig"; sourceTree = "<group>"; };
+		B390440BF4D92053777F3AD9 /* Pods-zapgo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zapgo.release.xcconfig"; path = "Pods/Target Support Files/Pods-zapgo/Pods-zapgo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6958C33ECE79E52438E4B09 /* Pods_zapgo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				1F158B021E5FC01B003E486A /* zapgo */,
 				1F158B011E5FC01B003E486A /* Products */,
+				C0000AC2B115F2C804D774AB /* Pods */,
+				A9B8817867AB5F68AD112FDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,76 @@
 		1F158B021E5FC01B003E486A /* zapgo */ = {
 			isa = PBXGroup;
 			children = (
+				1F5968751E601E9C00F35618 /* assets */,
+				1F158B181E5FE48B003E486A /* View */,
+				1F158B171E5FE472003E486A /* Storyboard */,
+				1F158B161E5FE451003E486A /* Model */,
+				1F158B151E5FE440003E486A /* Controller */,
 				1F158B031E5FC01B003E486A /* AppDelegate.swift */,
 				1F158B051E5FC01B003E486A /* ViewController.swift */,
 				1F158B071E5FC01B003E486A /* Main.storyboard */,
 				1F158B0A1E5FC01B003E486A /* Assets.xcassets */,
-				1F158B0C1E5FC01B003E486A /* LaunchScreen.storyboard */,
 				1F158B0F1E5FC01B003E486A /* Info.plist */,
+				1F5968731E60005C00F35618 /* DJMarker.swift */,
 			);
 			path = zapgo;
+			sourceTree = "<group>";
+		};
+		1F158B151E5FE440003E486A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1F158B161E5FE451003E486A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F59686F1E5FEA4700F35618 /* LocationModel.swift */,
+				1F98D9001E60A69700F35DF4 /* Instagram.swift */,
+				1F98D9021E60F96C00F35DF4 /* HelperExtension.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F158B171E5FE472003E486A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1F158B0C1E5FC01B003E486A /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		1F158B181E5FE48B003E486A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F5968751E601E9C00F35618 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				1F5968711E5FF9D200F35618 /* sample.json */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		A9B8817867AB5F68AD112FDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F4F32CAF50A508421A29FEF /* Pods_zapgo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0000AC2B115F2C804D774AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4034A43B1C00755494AD179A /* Pods-zapgo.debug.xcconfig */,
+				B390440BF4D92053777F3AD9 /* Pods-zapgo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F158B121E5FC01B003E486A /* Build configuration list for PBXNativeTarget "zapgo" */;
 			buildPhases = (
+				D00492B57D1C3B248F6EC5F9 /* [CP] Check Pods Manifest.lock */,
 				1F158AFC1E5FC01B003E486A /* Sources */,
 				1F158AFD1E5FC01B003E486A /* Frameworks */,
 				1F158AFE1E5FC01B003E486A /* Resources */,
+				B682FFCCA396D57B4AC53817 /* [CP] Embed Pods Frameworks */,
+				B432536714D3AE5C69F5BEB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F158B0E1E5FC01B003E486A /* LaunchScreen.storyboard in Resources */,
+				1F5968721E5FF9D200F35618 /* sample.json in Resources */,
 				1F158B0B1E5FC01B003E486A /* Assets.xcassets in Resources */,
 				1F158B091E5FC01B003E486A /* Main.storyboard in Resources */,
 			);
@@ -132,12 +215,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B432536714D3AE5C69F5BEB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zapgo/Pods-zapgo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B682FFCCA396D57B4AC53817 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zapgo/Pods-zapgo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00492B57D1C3B248F6EC5F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F158AFC1E5FC01B003E486A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F98D9011E60A69700F35DF4 /* Instagram.swift in Sources */,
 				1F158B061E5FC01B003E486A /* ViewController.swift in Sources */,
+				1F5968741E60005C00F35618 /* DJMarker.swift in Sources */,
+				1F98D9031E60F96C00F35DF4 /* HelperExtension.swift in Sources */,
+				1F5968701E5FEA4700F35618 /* LocationModel.swift in Sources */,
 				1F158B041E5FC01B003E486A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,12 +394,13 @@
 		};
 		1F158B131E5FC01B003E486A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4034A43B1C00755494AD179A /* Pods-zapgo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AKUJ78UVL8;
 				INFOPLIST_FILE = zapgo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devwue.zapgo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devwue.Instahakers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,12 +408,13 @@
 		};
 		1F158B141E5FC01B003E486A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B390440BF4D92053777F3AD9 /* Pods-zapgo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AKUJ78UVL8;
 				INFOPLIST_FILE = zapgo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devwue.zapgo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devwue.Instahakers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +439,7 @@
 				1F158B141E5FC01B003E486A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
