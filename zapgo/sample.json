@@ -1,0 +1,8 @@
+{
+    "name": "테스트 위치 정보"
+    ,"position": {
+        "latitude" : 37.123
+        ,"longitute": 128.234
+    }
+    ,"address" : ""
+}

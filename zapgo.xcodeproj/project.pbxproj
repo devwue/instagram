@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F158B041E5FC01B003E486A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F158B031E5FC01B003E486A /* AppDelegate.swift */; };
+		1F158B061E5FC01B003E486A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F158B051E5FC01B003E486A /* ViewController.swift */; };
+		1F158B091E5FC01B003E486A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F158B071E5FC01B003E486A /* Main.storyboard */; };
+		1F158B0B1E5FC01B003E486A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F158B0A1E5FC01B003E486A /* Assets.xcassets */; };
+		1F158B0E1E5FC01B003E486A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F158B0C1E5FC01B003E486A /* LaunchScreen.storyboard */; };
+		1F5968701E5FEA4700F35618 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F59686F1E5FEA4700F35618 /* LocationModel.swift */; };
+		1F5968721E5FF9D200F35618 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F5968711E5FF9D200F35618 /* sample.json */; };
+		1F5968741E60005C00F35618 /* DJMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5968731E60005C00F35618 /* DJMarker.swift */; };
+		1F98D9011E60A69700F35DF4 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98D9001E60A69700F35DF4 /* Instagram.swift */; };
+		1F98D9031E60F96C00F35DF4 /* HelperExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98D9021E60F96C00F35DF4 /* HelperExtension.swift */; };
+		C6958C33ECE79E52438E4B09 /* Pods_zapgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4F32CAF50A508421A29FEF /* Pods_zapgo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F158B001E5FC01B003E486A /* zapgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zapgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F158B031E5FC01B003E486A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F158B051E5FC01B003E486A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F158B081E5FC01B003E486A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F158B0A1E5FC01B003E486A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F158B0D1E5FC01B003E486A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F158B0F1E5FC01B003E486A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4F32CAF50A508421A29FEF /* Pods_zapgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zapgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F59686F1E5FEA4700F35618 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		1F5968711E5FF9D200F35618 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		1F5968731E60005C00F35618 /* DJMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJMarker.swift; sourceTree = "<group>"; };
+		1F98D9001E60A69700F35DF4 /* Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
+		1F98D9021E60F96C00F35DF4 /* HelperExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExtension.swift; sourceTree = "<group>"; };
+		4034A43B1C00755494AD179A /* Pods-zapgo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zapgo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zapgo/Pods-zapgo.debug.xcconfig"; sourceTree = "<group>"; };
+		B390440BF4D92053777F3AD9 /* Pods-zapgo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zapgo.release.xcconfig"; path = "Pods/Target Support Files/Pods-zapgo/Pods-zapgo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F158AFD1E5FC01B003E486A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6958C33ECE79E52438E4B09 /* Pods_zapgo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F158AF71E5FC01B003E486A = {
+			isa = PBXGroup;
+			children = (
+				1F158B021E5FC01B003E486A /* zapgo */,
+				1F158B011E5FC01B003E486A /* Products */,
+				C0000AC2B115F2C804D774AB /* Pods */,
+				A9B8817867AB5F68AD112FDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F158B011E5FC01B003E486A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F158B001E5FC01B003E486A /* zapgo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F158B021E5FC01B003E486A /* zapgo */ = {
+			isa = PBXGroup;
+			children = (
+				1F5968751E601E9C00F35618 /* assets */,
+				1F158B181E5FE48B003E486A /* View */,
+				1F158B171E5FE472003E486A /* Storyboard */,
+				1F158B161E5FE451003E486A /* Model */,
+				1F158B151E5FE440003E486A /* Controller */,
+				1F158B031E5FC01B003E486A /* AppDelegate.swift */,
+				1F158B051E5FC01B003E486A /* ViewController.swift */,
+				1F158B071E5FC01B003E486A /* Main.storyboard */,
+				1F158B0A1E5FC01B003E486A /* Assets.xcassets */,
+				1F158B0F1E5FC01B003E486A /* Info.plist */,
+				1F5968731E60005C00F35618 /* DJMarker.swift */,
+			);
+			path = zapgo;
+			sourceTree = "<group>";
+		};
+		1F158B151E5FE440003E486A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1F158B161E5FE451003E486A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F59686F1E5FEA4700F35618 /* LocationModel.swift */,
+				1F98D9001E60A69700F35DF4 /* Instagram.swift */,
+				1F98D9021E60F96C00F35DF4 /* HelperExtension.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F158B171E5FE472003E486A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1F158B0C1E5FC01B003E486A /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		1F158B181E5FE48B003E486A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F5968751E601E9C00F35618 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				1F5968711E5FF9D200F35618 /* sample.json */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		A9B8817867AB5F68AD112FDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F4F32CAF50A508421A29FEF /* Pods_zapgo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0000AC2B115F2C804D774AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4034A43B1C00755494AD179A /* Pods-zapgo.debug.xcconfig */,
+				B390440BF4D92053777F3AD9 /* Pods-zapgo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F158AFF1E5FC01B003E486A /* zapgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F158B121E5FC01B003E486A /* Build configuration list for PBXNativeTarget "zapgo" */;
+			buildPhases = (
+				D00492B57D1C3B248F6EC5F9 /* [CP] Check Pods Manifest.lock */,
+				1F158AFC1E5FC01B003E486A /* Sources */,
+				1F158AFD1E5FC01B003E486A /* Frameworks */,
+				1F158AFE1E5FC01B003E486A /* Resources */,
+				B682FFCCA396D57B4AC53817 /* [CP] Embed Pods Frameworks */,
+				B432536714D3AE5C69F5BEB7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zapgo;
+			productName = zapgo;
+			productReference = 1F158B001E5FC01B003E486A /* zapgo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F158AF81E5FC01B003E486A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = devwue;
+				TargetAttributes = {
+					1F158AFF1E5FC01B003E486A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AKUJ78UVL8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F158AFB1E5FC01B003E486A /* Build configuration list for PBXProject "zapgo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F158AF71E5FC01B003E486A;
+			productRefGroup = 1F158B011E5FC01B003E486A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F158AFF1E5FC01B003E486A /* zapgo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F158AFE1E5FC01B003E486A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F158B0E1E5FC01B003E486A /* LaunchScreen.storyboard in Resources */,
+				1F5968721E5FF9D200F35618 /* sample.json in Resources */,
+				1F158B0B1E5FC01B003E486A /* Assets.xcassets in Resources */,
+				1F158B091E5FC01B003E486A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B432536714D3AE5C69F5BEB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zapgo/Pods-zapgo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B682FFCCA396D57B4AC53817 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zapgo/Pods-zapgo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00492B57D1C3B248F6EC5F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F158AFC1E5FC01B003E486A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F98D9011E60A69700F35DF4 /* Instagram.swift in Sources */,
+				1F158B061E5FC01B003E486A /* ViewController.swift in Sources */,
+				1F5968741E60005C00F35618 /* DJMarker.swift in Sources */,
+				1F98D9031E60F96C00F35DF4 /* HelperExtension.swift in Sources */,
+				1F5968701E5FEA4700F35618 /* LocationModel.swift in Sources */,
+				1F158B041E5FC01B003E486A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F158B071E5FC01B003E486A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F158B081E5FC01B003E486A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F158B0C1E5FC01B003E486A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F158B0D1E5FC01B003E486A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F158B101E5FC01B003E486A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F158B111E5FC01B003E486A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F158B131E5FC01B003E486A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4034A43B1C00755494AD179A /* Pods-zapgo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AKUJ78UVL8;
+				INFOPLIST_FILE = zapgo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devwue.Instahakers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F158B141E5FC01B003E486A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B390440BF4D92053777F3AD9 /* Pods-zapgo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AKUJ78UVL8;
+				INFOPLIST_FILE = zapgo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devwue.Instahakers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F158AFB1E5FC01B003E486A /* Build configuration list for PBXProject "zapgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F158B101E5FC01B003E486A /* Debug */,
+				1F158B111E5FC01B003E486A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F158B121E5FC01B003E486A /* Build configuration list for PBXNativeTarget "zapgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F158B131E5FC01B003E486A /* Debug */,
+				1F158B141E5FC01B003E486A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F158AF81E5FC01B003E486A /* Project object */;
+}
