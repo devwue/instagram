@@ -128,17 +128,17 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    // json 파싱 연습 ㅋㅋ
-    func readJson() {
-        let  data : NSDictionary = PlaceProvider.readJsonFromFile(filename: "sample.json") as! NSDictionary;
-        print(data["name"]!);
-        //var json = JSON(data);
-        for (key,value) in data {
-            print("key: \(key) =>\(value)");
-        }
-
-    }
+//    
+//    // json 파싱 연습 ㅋㅋ
+//    func readJson() {
+//        let  data : NSDictionary = PlaceProvider.readJsonFromFile(filename: "sample.json") as! NSDictionary;
+//        print(data["name"]!);
+//        //var json = JSON(data);
+//        for (key,value) in data {
+//            print("key: \(key) =>\(value)");
+//        }
+//
+//    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
